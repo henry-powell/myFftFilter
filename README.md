@@ -1,5 +1,5 @@
 # myFftFilter — MATLAB FFT-Based Sub-Frame Filter
-![License: MIT](https://img.shields.io/badge/License-MIT-green?style=flat-square)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 ![MATLAB](https://img.shields.io/badge/MATLAB-R2023b-orange?style=flat-square)
 ![DSP](https://img.shields.io/badge/DSP-FFT%20Filter-blue?style=flat-square)
 ![Audio Toolbox](https://img.shields.io/badge/Audio%20Toolbox-Enabled-purple?style=flat-square)
