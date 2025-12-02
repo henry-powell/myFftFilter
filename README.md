@@ -85,11 +85,7 @@ while magnitudes in 500–4000 Hz are reduced to 80%.
 
   ---
 
-### Development Environment
-- MATLAB R2025a Update 1 (64-bit, macOS)
-- Audio Toolbox enabled
 
----
 
 ## Engineering Relevance
 myFftFilter demonstrates core digital signal processing principles used in real-world audio engineering and plugin development:
@@ -103,5 +99,19 @@ myFftFilter demonstrates core digital signal processing principles used in real-
 This implementation highlights the practical side of DSP theory: understanding how FFT, windowing, and frame coherence work together to shape audio without introducing clicks, distortion, or phase imbalance. It provides a foundation for building more advanced processors such as adaptive filters, vocoders, harmonic enhancers, and AI-assisted spectral tools. 
 This project demonstrates my interest in algorithmic audio, DSP engineering, and real-time signal processing — and serves as a foundation for future work in plugin development and machine-learning-assisted audio tools.
 
+---
 
-  © Henry Powell — Audio DSP Development
+## Requirements
+
+- MATLAB R2023b or later
+- Audio Toolbox recommended
+- Tested using:
+  - N = 4096
+  - hop = 2048
+  - Mono .wav input (44.1 kHz)
+  - Two frequency bands (Hz) and two magnitude scalars
+    - Example: [100, 250] boosted ×1.5
+    - Example: [500, 4000] cut ×0.8
+
+---
+© Henry Powell — Audio DSP Development
