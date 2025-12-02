@@ -3,6 +3,8 @@
 ![MATLAB](https://img.shields.io/badge/MATLAB-R2023b-orange?style=flat-square)
 ![DSP](https://img.shields.io/badge/DSP-FFT%20Filter-blue?style=flat-square)
 ![Audio Toolbox](https://img.shields.io/badge/Audio%20Toolbox-Enabled-purple?style=flat-square)
+![Grad Program](https://img.shields.io/badge/Grad_Program-Audio_Technology_(M.A.)-6a1b9a.svg)
+![University](https://img.shields.io/badge/American_University-Washington,_DC-002855.svg)
 
 myFftFilter is a MATLAB function that applies frequency-selective gain to an audio signal in the spectral domain.  
 The function slices the signal into overlapping frames, runs an FFT on each frame, adjusts magnitudes inside two user-defined frequency bands, then reconstructs the processed signal using inverse FFT, Hann windowing, and overlap-add.
