@@ -114,4 +114,33 @@ This project demonstrates my interest in algorithmic audio, DSP engineering, and
     - Example: [500, 4000] cut ×0.8
 
 ---
+
+## Real-World Applications
+
+The `myFftFilter` function demonstrates frequency-domain signal processing that is used widely across professional audio engineering and DSP development. Typical real-world uses include:
+
+- **Surgical EQ and multi-band dynamic filtering**  
+  Boosting or reducing targeted ranges (e.g., 100–250 Hz or 2–5 kHz) without affecting the rest of the spectrum.
+
+- **De-mud / de-harsh processing in mixing and mastering**  
+  Automated magnitude shaping based on defined spectral regions.
+
+- **Audio restoration & noise reduction**  
+  Attenuating narrow-band noise or hum while preserving desired spectral content.
+
+- **Broadcast & post-production QC**  
+  Frequency-domain level management for dialogue-first audio and safety-limited broadcast output.
+
+- **Adaptive effects processing**  
+  Real-time FFT gain shaping for guitar/bass tone sculpting, live vocal enhancement, or spectral transitions.
+
+- **Game audio / interactive DSP**  
+  Band-based processing that can react to gameplay state or user input (e.g., low-pass during pause menus).
+
+- **Research & machine learning pre-processing**  
+  Preparing signals for feature extraction pipelines by normalizing spectral content across frames.
+
+The project showcases precision control of magnitude at the sub-frame level, providing a practical demonstration of real FFT-domain filtering used throughout modern audio software design.
+
+---
 © Henry Powell — Audio DSP Development
